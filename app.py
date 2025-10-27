@@ -39,7 +39,7 @@ In the final product, the user would only enter a VIN.
 st.sidebar.header("Vehicle Specifications")
 battery_capacity_kwh = st.sidebar.number_input(
     "Battery Capacity (kWh)", 
-    min_value=3.0, max_value=120.0, value=30.2, step=0.1,
+    min_value=2.0, max_value=120.0, value=30.2, step=0.1,
     help="Original nominal capacity of the vehicle's battery pack (e.g., 30.2 for a Nexon EV)."
 )
 
